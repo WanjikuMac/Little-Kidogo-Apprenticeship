@@ -16,7 +16,7 @@ sum.(1,2,3)
 
 Question 3
 -----------
-pair_tuple_to_list = fn({abcd, efgh}) -> ([abcd, efgh]) end
+pair_tuple_to_list = fn({a,b}) -> ([a,b]) end
 #Function<6.99386804/1 in :erl_eval.expr/5>
 pair_tuple_to_list.({1234, 5678})
 [1234, 5678]
